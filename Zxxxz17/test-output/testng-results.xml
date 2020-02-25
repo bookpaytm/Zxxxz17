@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18249" started-at="2020-02-14T11:54:02Z" finished-at="2020-02-14T11:54:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18249" started-at="2020-02-14T11:54:02Z" finished-at="2020-02-14T11:54:20Z">
+      <class name="Testcase.Gcrit">
+        <test-method status="PASS" signature="suiteset()[pri:0, instance:Testcase.Gcrit@724af044]" name="suiteset" is-config="true" duration-ms="1188" started-at="2020-02-14T17:24:01Z" finished-at="2020-02-14T17:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteset -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcase.Gcrit@724af044]" name="setup" is-config="true" duration-ms="9887" started-at="2020-02-14T17:24:02Z" finished-at="2020-02-14T17:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchapplication()[pri:0, instance:Testcase.Gcrit@724af044]" name="launchapplication" duration-ms="6014" started-at="2020-02-14T17:24:12Z" finished-at="2020-02-14T17:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method status="PASS" signature="CapturedFormatDateTime(org.testng.ITestResult)[pri:0, instance:Testcase.Gcrit@724af044]" name="CapturedFormatDateTime" is-config="true" duration-ms="1282" started-at="2020-02-14T17:24:18Z" finished-at="2020-02-14T17:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchapplication status=SUCCESS method=Gcrit.launchapplication()[pri:0, instance:Testcase.Gcrit@724af044] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CapturedFormatDateTime -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:Testcase.Gcrit@724af044]" name="shutdown" is-config="true" duration-ms="1041" started-at="2020-02-14T17:24:19Z" finished-at="2020-02-14T17:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- Testcase.Gcrit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
