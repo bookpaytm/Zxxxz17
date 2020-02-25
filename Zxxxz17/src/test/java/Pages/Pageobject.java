@@ -14,7 +14,7 @@ WebDriver driver;
 public Pageobject(WebDriver driver){
 	this.driver=driver;
 }
-@FindBy(name="username") WebElement user;
+@FindBy(name="username1") WebElement user;
 @FindBy(name="password") WebElement pass;
 @FindBy(id="tdb1") WebElement button;
 @FindBy(linkText="Online Catalog") WebElement Online;
